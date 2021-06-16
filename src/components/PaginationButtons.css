@@ -1,0 +1,30 @@
+.paginationbuttons {
+    flex: 0.05;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.paginationbuttons__each {
+    cursor: pointer;
+}
+
+@media (min-width: 540px) {
+    .paginationbuttons {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .paginationbuttons {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .paginationbuttons {
+        width: 50%;
+    }
+}
